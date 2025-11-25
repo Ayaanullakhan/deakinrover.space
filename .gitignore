@@ -41,3 +41,6 @@ next-env.d.ts
 .playwright-mcp
 .claude
 CLAUDE.md
+
+.env
+*.env

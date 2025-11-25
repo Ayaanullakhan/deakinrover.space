@@ -6,6 +6,7 @@ import { Gallery } from "@/components/main/gallery";
 import { LogoSection } from "@/components/main/logo-section";
 import { Fixed3DModel } from "@/components/sub/fixed-3d-model";
 import { Mobile3DModel } from "@/components/sub/mobile-3d-model";
+import { ChatWidget } from "@/components/main/chat-widget";
 
 export default function Home() {
   return (

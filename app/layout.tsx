@@ -9,6 +9,7 @@ import { siteConfig } from "@/config";
 import { cn } from "@/lib/utils";
 
 import "./globals.css";
+import { ChatWidget } from "@/components/main/chat-widget";
 
 const brunoAceSC = Bruno_Ace_SC({
   subsets: ["latin"],
@@ -123,6 +124,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <StarsCanvas />
         <Navbar />
         {children}
+        <ChatWidget />
         <Footer />
       </body>
     </html>
